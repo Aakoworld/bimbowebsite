@@ -1,0 +1,88 @@
+html {
+  background-color: #FBF8F8;
+}
+/*
+  ========================================
+  Grid
+  ========================================
+*/
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+.container {
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+  width: 960px;
+}
+
+
+header,footer{
+	background-color:#D798C5; 
+	padding: 0 10px 10px 10px;
+	color: black;
+	font-size: 20px;
+}
+
+
+body{
+	font-family: 'Raleway', sans-serif;
+	background: url("../images/sunset.jpeg");
+	font-size: 20px; /* px means 'pixels': the base font size is now 10 pixels high  */
+ text-align: center;
+color: #D798C5;
+margin:0;
+padding:0;
+}
+
+
+h1 {
+  color: #D798C5;
+}
+
+
+p {
+  color: #D798C5;
+  width: 1000px;
+  border: 1px #D798C5;
+}
+
+
+a{
+	color: white;
+}
+
+
+img {
+  margin: 0 auto;
+
+
+
+}
+
+
+#overlay{
+	background:rgba(0,0,0,0.5);
+	height: 100% 
+}
+ul{
+	list-style-position: inside;
+
+.zoom {
+    padding: 50px;
+    background-color: orange;
+    transition: transform .2s; /* Animation */
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.zoom:hover {
+    transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
